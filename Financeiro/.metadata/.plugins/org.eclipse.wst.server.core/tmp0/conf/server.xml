@@ -131,7 +131,7 @@
                prefix="localhost_access_log." suffix=".txt" pattern="common" resolveHosts="false"/>
         -->
 
-      <Context docBase="C:\Users\TecnologiaTi\Desktop\Workspace_Trabalho\Financeiro\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\TecnologiaTi\Desktop\Workspace_Trabalho\Financeiro\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\agenda" path="/agenda" reloadable="true" source="org.eclipse.jst.jee.server:agenda"/></Host>
+      <Context docBase="C:\Users\Bruno\Documents\GitHub\Workspace_Trabalho01\Financeiro\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\Bruno\Documents\GitHub\Workspace_Trabalho01\Financeiro\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\agenda" path="/agenda" reloadable="true" source="org.eclipse.jst.jee.server:agenda"/></Host>
     </Engine>
   </Service>
 </Server>

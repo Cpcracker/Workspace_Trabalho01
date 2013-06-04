@@ -7,6 +7,6 @@
 <booleanAttribute key="org.eclipse.jdt.launching.DEFAULT_CLASSPATH" value="false"/>
 <stringAttribute key="org.eclipse.jdt.launching.JRE_CONTAINER" value="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre7"/>
 <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="start"/>
-<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Dcatalina.base=&quot;C:\Users\TecnologiaTi\Desktop\Workspace_Trabalho\Financeiro\.metadata\.plugins\org.eclipse.wst.server.core\tmp0&quot; -Dcatalina.home=&quot;C:\Apache Tomcat\apache-tomcat-6.0.36&quot; -Dwtp.deploy=&quot;C:\Users\TecnologiaTi\Desktop\Workspace_Trabalho\Financeiro\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps&quot; -Djava.endorsed.dirs=&quot;C:\Apache Tomcat\apache-tomcat-6.0.36\endorsed&quot;"/>
+<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Dcatalina.base=&quot;C:\Users\Bruno\Documents\GitHub\Workspace_Trabalho01\Financeiro\.metadata\.plugins\org.eclipse.wst.server.core\tmp0&quot; -Dcatalina.home=&quot;C:\Apache Tomcat\apache-tomcat-6.0.36&quot; -Dwtp.deploy=&quot;C:\Users\Bruno\Documents\GitHub\Workspace_Trabalho01\Financeiro\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps&quot; -Djava.endorsed.dirs=&quot;C:\Apache Tomcat\apache-tomcat-6.0.36\endorsed&quot;"/>
 <stringAttribute key="server-id" value="Tomcat v6.0 Server at localhost"/>
 </launchConfiguration>
