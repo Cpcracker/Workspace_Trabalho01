@@ -1,0 +1,8 @@
+package br.com.finan.entidade;
+
+public class Banco {
+	private int id;
+	private String nomeb;
+	private String conta;
+	private
+}

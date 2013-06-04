@@ -1,0 +1,5 @@
+package br.com.finan.controller;
+
+public class ClienteController {
+
+}

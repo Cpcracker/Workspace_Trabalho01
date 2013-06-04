@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;br.com.finan-td2.www&apos; to &apos;br.com.financeiro.www&apos;" description="Rename resource &apos;br.com.finan-td2.www&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/br.com.finan-td2.www" name="br.com.financeiro.www" stamp="1369348278633" updateReferences="true"/>
+</session>

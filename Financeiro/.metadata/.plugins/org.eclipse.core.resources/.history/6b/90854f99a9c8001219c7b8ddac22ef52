@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+	<title>CADASTRO DE BANCOS</title>
+	<link rel="StyleSheet" type="text/css" href="../../css/css.css"></link>
+	<script language="javascript" src="../js/cadastroBancos.js"
+		charset="ISO-8859-1" />
+
+</h:head>
+<h:body>
+	<center>
+		<h:form>
+			<p:panel header="Bancos" style="width:50%">
+				<h:panelGrid columns="5" cellpadding="6">
+					<h:outputLabel for="nomebd" value="Nome do banco:"
+						style="font-weight:bold" />
+					<p:inputText id="banco" value="" size="30" maxlength="50"></p:inputText>
+				</h:panelGrid>
+				<h:outputLabel for="datacad" value="Data: "style="font-weight:bold" />
+				<p:accordionPanel></p:accordionPanel>
+				<p:inputMask mask="99/99/9999" id="data" value="" size="30"></p:inputMask>
+			</p:panel>
+		</h:form>
+	</center>
+</h:body>
+</html>
+
+

@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui">
+
+
+<h:head>
+	<title>FINANCEIRO - CMP1092</title>
+	<link rel="StyleSheet" type="text/css" href="../../css/css.css"></link>
+	<script language="javascript" src="../js/cadastroBancos.js"
+		charset="ISO-8859-1" />
+		<p:menu>  
+        <p:submenu label="Ajax Menuitems">  
+            <p:menuitem value="Save" actionListener="#{menuBean.save}" update="messages" icon="ui-icon-disk" />  
+            <p:menuitem value="Update" actionListener="#{menuBean.update}" update="messages" icon="ui-icon-arrowrefresh-1-w"/>  
+        </p:submenu>  
+        <p:submenu label="Non-Ajax Menuitem">  
+            <p:menuitem value="Delete" actionListener="#{menuBean.delete}" update="messages" ajax="false" icon="ui-icon-close"/>  
+        </p:submenu>  
+        <p:submenu label="Navigations">  
+            <p:menuitem value="External" url="http://www.primefaces.org" icon="ui-icon-home"/>  
+            <p:menuitem value="Internal" outcome="/mobile/index" icon="ui-icon-star"/>  
+        </p:submenu>  
+    </p:menu>  
+</h:head>
+<h:body>
+	<p:layout fullPage="true">
+		<!-- MENU -->
+		<p:layoutUnit position="west" size="260" header="Menu Financeiro"
+			resizable="true" closable="false" collapsible="true">
+			<h:outputText value="" />
+			
+		</p:layoutUnit>
+		<!-- CENTRO -->
+		<p:layoutUnit position="center">
+			<h:form>
+					<p:spacer height="50" />
+					<h:panelGrid columns="4" cellpadding="5">
+						<h:outputLabel for="name" value="Name:" style="font-weight:bold" />
+
+						<p:inputText id="name" value="#{pprBean.firstname}" />
+
+						<p:commandButton value="Submit" update="display" />
+
+						<h:outputText value="#{pprBean.firstname}" id="display" />
+						
+					</h:panelGrid>
+			</h:form>
+		</p:layoutUnit>
+
+	</p:layout>
+
+</h:body>
+</html>
+
+

@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package br.com.finan.entidade;
+
+/**
+ * @author TecnologiaTi
+ *
+ */
+public class Cliente {
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;TelefoneBean.java&apos; to &apos;br.com.financeiro.www/src/br.com.finan.controller&apos;&#x0D;&#x0A;- Original project: &apos;agenda&apos;&#x0D;&#x0A;- Destination element: &apos;br.com.financeiro.www/src/br.com.finan.controller&apos;&#x0D;&#x0A;- Original element: &apos;br.pucgoias.agenda.controller.TelefoneBean.java&apos;" description="Copy compilation unit" destination="=br.com.financeiro.www/src&lt;br.com.finan.controller" element1="/src&lt;br.pucgoias.agenda.controller{TelefoneBean.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1370349317249" units="1" version="1.0"/>
+</session>

@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui">
+
+
+<h:head>
+	<title>CLIENTE - CMP1092</title>
+	<link rel="StyleSheet" type="text/css" href="../../css/css.css"></link>
+	<script language="javascript" src="../js/cadastroBancos.js"
+		charset="ISO-8859-1" />
+
+</h:head>
+<h:body>
+	<!--  <p:graphicImage value="/images/money01.jpg" /> -->
+	<h:form id="form">
+
+		<p:panel header="Login" id="panel" style="width:30%">
+
+			<p:messages id="msgs" />
+
+			<h:panelGrid columns="3">
+				<h:outputLabel for="firstname" value="Nome: *" />
+				<p:inputText id="firstname" value="#{personBean.firstname}"
+					required="true" label="Firstname">
+					<f:validateLength minimum="2" />
+				</p:inputText>
+				<p:message for="firstname" display="icon" />
+				
+			</h:panelGrid>
+
+			<p:commandButton id="btn" value="Save" update="panel"
+				actionListener="#{personBean.savePerson}" />
+		</p:panel>
+
+	</h:form>
+
+
+</h:body>
+</html>
+
+

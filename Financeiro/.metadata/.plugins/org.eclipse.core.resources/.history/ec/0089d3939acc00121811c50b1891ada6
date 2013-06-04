@@ -1,0 +1,5 @@
+package br.com.finan.entidade;
+
+public class Banco {
+
+}

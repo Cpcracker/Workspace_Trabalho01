@@ -1,0 +1,11 @@
+package br.com.finan.persistencia;
+
+
+/**
+ * Interface que define as operacoes da camada de persistencia de Pessoa
+ * @author Gilcimar
+ *
+ */
+public interface ClienteDAO extends GenericoDAO<Cliente, Integer> {
+
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui">
+
+
+<h:head>
+	<title>FINANCEIRO - CMP1092</title>
+	<link rel="StyleSheet" type="text/css" href="../../css/css.css"></link>
+	<script language="javascript" src="../js/cadastroBancos.js"
+		charset="ISO-8859-1" />
+
+</h:head>
+<h:body>
+	
+	
+	<center>
+	
+	<br></br><br></br><br></br><br></br>
+	<p:separator></p:separator>
+		<p:notificationBar position="top" effect="slide" widgetVar="bar"
+			styleClass="top">
+			<h:outputText value="OBS:Software Financeiro"
+				style="color:#FFCC00;font-size:36px;" />
+		</p:notificationBar>
+
+		<h:form>
+			<p:panel header="Login" style="width:50%">
+				<h:panelGrid columns="4" cellpadding="5">
+					<h:outputLabel for="nome" value="Login:" style="font-weight:bold" />
+
+					<p:inputText id="name" value="#{pprBean.firstname} " size="30"
+						maxlength="50" />
+
+					<h:outputText value="#{pprBean.firstname}" id="display" />
+				</h:panelGrid>
+				<h:outputLabel for="Senha" value="Senha:" style="font-weight:bold" />
+				<p:password id="pass" value="" size="30" maxlength="10"/>
+				
+			</p:panel>
+			<p:commandButton value="Confirmar" update="display" />
+		</h:form>
+		<br></br>
+		<p:separator><b>INFORMAÇÕES</b></p:separator>
+		<p:commandButton value="Mostrar" onclick="bar.show()" type="button" />
+		<p:commandButton value="Esconder" onclick="bar.hide()" type="button" />
+		
+		<p:column rowpan="3">  
+    <p:graphicImage url="/br.com.financeiro.www/WebContent/images/money02.png" width="40px" height="40px" />  
+	</p:column>  
+	</center>
+</h:body>
+</html>
+
+
