@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pageflow:Pageflow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pageflow="http://www.sybase.com/suade/pageflow" id="pf13385010191800" configfile="/FinanceiroWeb/WebContent/WEB-INF/faces-config.xml">
+  <nodes xsi:type="pageflow:PFPage" name="*" x="122" y="370" id="pf13494417687961" referenceLink="//@navigationRule.0/@fromViewId|" outlinks="pf13494417687962" path="*"/>
+  <nodes xsi:type="pageflow:PFPage" name="index.xhtml" x="338" y="178" id="pf13494417687963" referenceLink="//@navigationRule.0/@navigationCase.0/@toViewId|" inlinks="pf13494417687962" path="/index.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="usuario.xhtml" x="338" y="562" id="pf13494417687964" referenceLink="//@navigationRule.1/@fromViewId|" outlinks="pf13494417687965" path="/usuario.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="mostraUsuario.xhtml" x="554" y="562" id="pf13494417687976" referenceLink="//@navigationRule.1/@navigationCase.0/@toViewId|" inlinks="pf13494417687965" path="/mostraUsuario.xhtml"/>
+  <links id="pf13494417687962" target="pf13494417687963" source="pf13494417687961" outcome="inicio"/>
+  <links id="pf13494417687965" target="pf13494417687976" source="pf13494417687964" outcome="sucesso"/>
+</pageflow:Pageflow>
